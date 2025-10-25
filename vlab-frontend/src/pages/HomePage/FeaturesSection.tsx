@@ -1,7 +1,7 @@
 import FeatureBox from "../../components/HomePage/FeatureBox";
-import { IoMdPin } from "react-icons/io";
-import { RiProgress5Line } from "react-icons/ri";
-import { FaShareAlt } from "react-icons/fa";
+import { FaRegUserCircle } from "react-icons/fa";
+import { LuSquareFunction } from "react-icons/lu";
+import { FaCheckSquare } from "react-icons/fa";
 
 const FeaturesSection = () => {
   return (
@@ -15,7 +15,7 @@ const FeaturesSection = () => {
       <div className="flex w-full flex-wrap justify-center gap-4 py-4">
         <FeatureBox>
           <div className="ml-1 rounded-lg bg-[#eaedfb] p-2">
-            <IoMdPin size={30} color="#00bf33" />
+            <FaRegUserCircle size={30} color="#00bf33" />
           </div>
           <h3 className="text-left text-2xl font-bold text-[#252a35]">
             Login/Logout Function
@@ -26,7 +26,7 @@ const FeaturesSection = () => {
         </FeatureBox>
         <FeatureBox>
           <div className="ml-1 rounded-lg bg-[#eaedfb] p-2">
-            <RiProgress5Line size={30} color="#00bf33" />
+            <LuSquareFunction size={30} color="#00bf33" />
           </div>
           <h3 className="text-left text-2xl font-bold text-[#252a35]">
             Physics Lab
@@ -37,7 +37,7 @@ const FeaturesSection = () => {
         </FeatureBox>
         <FeatureBox>
           <div className="ml-1 rounded-lg bg-[#eaedfb] p-2">
-            <FaShareAlt size={30} color="#00bf33" />
+            <FaCheckSquare size={30} color="#00bf33" />
           </div>
           <h3 className="text-left text-2xl font-bold text-[#252a35]">
             "Opened" Checker
