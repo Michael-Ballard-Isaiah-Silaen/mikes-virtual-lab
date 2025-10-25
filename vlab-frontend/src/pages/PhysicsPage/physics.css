@@ -1,0 +1,29 @@
+.pendulum-container{
+    transform-origin: top center;
+    animation: swing 2s ease-in-out infinite;
+}
+.pendulum-string{
+    width: 2px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+.pendulum-bob{
+    width: 40px;
+    height: 40px;
+    background-color: #00bf33;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+@keyframes swing{
+    0%{
+        transform: rotate(30deg);
+    }
+    50%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(30deg);
+    }
+}
